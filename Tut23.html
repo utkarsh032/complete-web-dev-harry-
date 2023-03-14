@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating A Navigation</title>
+</head>
+<style>
+.navbar{
+    background-color: rgb(58, 110, 110);
+    border-radius: 25px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: gray;
+}
+.Search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 3px 5px;
+width: 85px;
+}
+</style>
+
+<body>
+    <h1>Create A Navigation</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home<a></li>
+                <li><a href="#">About<a></li>
+                <li><a href="#">Service<a></li>
+                <li><a href="#">Contavt Us<a></li>
+                <li><a href="#">Help<a></li>
+                    <div class="Search">
+                       <input type="text" name="Search" id="Search" placeholder="Search Here">
+                    </div>
+                   
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>

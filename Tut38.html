@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform Property</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            height: 80vh;
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: brown;
+            border: 2px solid black;
+            border-radius: 8px;
+            height: 400px;
+            width: 400px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .box:hover {
+            /* transform: rotate(360deg); */
+            /* transform: skew(40deg); */
+            /* transform: matrix3d(1, 0, 0, 0, 0, 1, 3, 0, 0, 0, 1, 0, 50, 100, 0, 1.1); */
+            /* transform: scale(2); */
+            transform: translatex(122px);
+            transform: translatey(122px);
+            transform: translate(122px, 122px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">This is a box</div>
+
+    </div>
+
+</body>
+<!-- <option>rotate(360deg)</option>
+<option>rotateX(360deg)</option>
+<option>rotateY(360deg)</option>
+<option>rotateZ(360deg)</option>
+<option>rotate3d(1, 1, 1, 90deg)</option>
+<option>scale(1.5)</option>
+<option>scaleX(1.5)</option>
+<option>scaleY(1.5)</option>
+<option>scaleZ(1.5)</option>
+<option>scale3d(1, 1.5, 1.5)</option>
+<option>skew(17deg, 13deg)</option>
+<option>skewX(17deg)</option>
+<option>skewY(17deg)</option>
+<option>translate(100px, 100px)</option>
+<option>translateX(100px)</option>
+<option>translateY(100px)</option>
+<option>translateZ(100px)</option>
+<option>translate3d(50px, 50px, 50px)</option>
+<option>perspective(200px)</option>
+<option>matrix(1, 2, -1, 1, 80, 80)</option>
+<option>matrix3d(1,0,0,0,0,1,3,0,0,0,1,0,50,100,0,1.1)</option> -->
+
+</html>
